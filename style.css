@@ -166,9 +166,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 1rem;
 }
 .plan > h5{
     font-weight: 700;
+    font-size: 1.1rem;
+}
+.payment-link{
+    text-align: center;
 }
 
 .button-confirm {
@@ -183,4 +188,15 @@ body {
     cursor: pointer;
     background-color: hsla(245, 75%, 52%,80%);
    
+}
+.cancel-order{
+    font-weight: 500;
+   color: var(--Desaturated-blue);
+   font-size: 0.9rem;
+}
+.cancel-order:hover{
+    cursor: pointer;
+    color: black;
+    
+    
 }
